@@ -1,0 +1,55 @@
+/* components/pop.wxss */
+.wx_dialog {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.wx-mask {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .3);
+  z-index: 99;
+}
+.wx-dialog-content {
+  position: absolute;
+  background: #fff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  /* height: 200px; */
+  padding-bottom: 60px;
+  z-index: 100;
+  border-radius: 5px;
+}
+.wx-dialog-contents {
+  padding: 10px;
+}
+.wx-dialog-title {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.wx-dialog-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #eee;
+}
+.wx-dialog-btn {
+  display: inline-block;
+  width: 49%;
+  cursor: pointer;
+  text-align: center;
+}
+.wx-dialog-btn:first-child {
+  border-right: 1px solid #eee;
+}

@@ -1,0 +1,3 @@
+.example-item {
+    padding: 20rpx;
+}

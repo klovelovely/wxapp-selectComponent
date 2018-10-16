@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="example-item">
+        <button bindtap='showDialog1'>显示弹窗1</button>
+    </view>
+
+    <view class="example-item">
+        <button bindtap='showDialog2'>显示弹窗2</button>
+    </view>
+</view>
+
+<!-- 弹窗1 -->
+<pop id='dialog1' title='我是标题' content='我应该可能大概也许是内容吧...' cancelText='假装没看见' confirmText='我确定你就是内容' bind:cancelEvent="cancelDialog1" bind:confirmEvent="confirmDialog1">
+</pop>
+
+<!-- 弹窗2 -->
+<pop id='dialog2' title='我是标题2' content='我应该可能大概也许是内容222吧' cancelText='假装没看见2' confirmText='我确定你就是内容2' bind:cancelEvent="cancelDialog2" bind:confirmEvent="confirmDialog2">
+</pop>
